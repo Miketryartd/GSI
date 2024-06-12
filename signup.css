@@ -1,0 +1,141 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+    text-decoration: none;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(237, 237, 237);
+}
+.header ul li h1{
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+   font-size: 2.5rem;
+}
+.header ul li img{
+    height: 60px;
+   position: relative;
+   top:10px;
+   left:-10px;
+}
+.header ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 10px;
+}
+.header ul li a{
+    color: rgb(111, 111, 111);
+}
+.header ul li button{
+    width: 100%;
+    font-size: 1.3rem;
+}
+.header ul li button a{
+    color: black;
+}
+
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.main ul li h1{
+    font-weight: 200;
+    color: rgb(55, 55, 55);
+}
+.section .main{
+    margin-top: 50px;
+    width: 500px;
+    height:590px;
+    background-color: rgb(237, 237, 237);
+}
+.section .main ul li{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(237, 237, 237);
+    text-align: center;
+}
+.main ul li input{
+    flex:1;
+    padding: 10px 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 20%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(194, 194, 194);
+    margin-right: 15px;
+   
+    
+}
+.main ul li button{
+    flex:0.5;
+    padding: 5px 10px;
+    border: none;
+    background-color: black;
+    margin-top: 20px;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+.main ul li img{
+    height:auto;
+    width:50%;
+}
+
+.gof{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: -100px;
+}
+.gof ul li{
+    list-style: none;
+    padding: 5px;
+}
+.gof ul li button{
+    padding: 5px 10px;
+    width: 50px;
+    border: none;
+   
+    color: white;
+    font-size: 2rem;
+    margin: 10px;
+    cursor: pointer;
+}
+.gof ul li p{
+    border-bottom: 1px solid rgb(132, 132, 132);
+}
+.gof ul li #google{
+    background-color: rgb(209, 78, 78);
+    font-weight: 600;
+    transition: 0.2s ease-in;
+}
+.gof ul li #google:hover{
+    transition: 0.2s ease;
+    background-color: red;
+}
+.gof ul li #facebook{
+    background-color: rgb(26, 80, 163);
+    font-weight: 600;
+    transition: 0.2s ease-in;
+}
+.gof ul li #facebook:hover{
+    transition: 0.2s ease;
+    background-color: blue;
+}
